@@ -131,7 +131,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Streamlit UI
-st.title("✨ Advanced Unit Converter ✨")
+st.title("🌎 Advanced Unit Converter")
+st.markdown("### Convert Length, weight, temperature, time, speed, area, volume, energy, pressure, and digital storage units")
+st.write("Welcome! Select a category, enter a value and get the converted result in real-time")
 
 # Select conversion type
 conversion_type = st.selectbox("Select conversion type", list(conversion_factors.keys()))
